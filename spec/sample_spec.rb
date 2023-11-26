@@ -1,4 +1,5 @@
-# write a spec for the sample.rb file
+# frozen_string_literal: true
+
 require_relative '../sample'
 
 RSpec.describe 'Calculator' do

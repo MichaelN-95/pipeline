@@ -5,7 +5,7 @@ AllCops:
   NewCops: enable
   Exclude:
     - 'Gemfile'
-
+    - 'spec/spec_helper.rb'
 # Style guide configurations
 Layout/LineLength:
   Max: 120
