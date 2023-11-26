@@ -1,17 +1,17 @@
-# write a simple file that we can write some rspecs for 
+# frozen_string_literal: true
 
-def add(a,b)
-  a + b
+def add(first_num, second_num)
+  first_num + second_num
 end
 
-def subtract(a,b)
-  a - b
+def subtract(first_num, second_num)
+  first_num - second_num
 end
 
-def multiply(a,b)
-  a * b 
+def multiply(first_num, second_num)
+  first_num * second_num
 end
 
-def divide(a,b)
-  a / b
+def divide(first_num, second_num)
+  first_num / second_num
 end
