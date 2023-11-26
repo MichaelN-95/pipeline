@@ -1,0 +1,16 @@
+# .rubocop.yml
+require: rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'Gemfile'
+
+# Style guide configurations
+Layout/LineLength:
+  Max: 120
+
+Metrics/BlockLength:
+  ExcludedMethods: ['describe', 'context', 'it']
+
+# Other cop configurations...
